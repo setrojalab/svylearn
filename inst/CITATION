@@ -1,0 +1,12 @@
+bibentry(bibtype = "Article",
+  title = "Design-consistent statistical learning for rare survey outcomes: a cardiovascular-kidney-metabolic multimorbidity plasmode benchmark in women",
+  author = c(person("Sunday A.", "Adetunji"), person("Rhoda O.", "Oyewusi"),
+    person("Tomiisin", "Balogun"), person("Bukola", "Adetunji"), person("Oluwatimileyin C.", "Adetunji")),
+  journal = "Current Biomedicine", year = "2026", volume = "5", number = "1", pages = "7--23",
+  doi = "10.29244/currbiomed.5.1.7",
+  header = "For the methodological foundation of svylearn, cite:")
+bibentry(bibtype = "Manual",
+  title = "svylearn: Design-consistent statistical learning, calibration, and inference for complex surveys",
+  author = c(person("Sunday A.", "Adetunji"), person("Oluwatimileyin A.", "Adetunji")),
+  year = "2026", note = "R package version 0.3.0", url = "https://github.com/setrojalab/svylearn",
+  header = "For this software implementation, also cite:")
