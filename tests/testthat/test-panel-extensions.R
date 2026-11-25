@@ -51,7 +51,7 @@ test_that("agency-specified replicate degrees of freedom are honored", {
   rd <- svy_replicates(z,type="bootstrap",replicates=100)
   wz <- svy_design(d,"weight","psu","stratum",repweights=as.matrix(weights(rd,type="analysis")),
     scale=rd$scale,rscales=rd$rscales,mse=rd$mse,replicate_df=80)
-  expect_equal(survey::degf(as_survey_design(wz)),80)
+  expect_equal(as.numeric(survey::degf(as_survey_design(wz))),80)
   expect_error(svy_design(d,"weight",replicate_df=80),"requires supplied")
   expect_equal(svy_infer(wz,d$y,plogis(d$x1))$scores$df,rep(80,2))
 })
