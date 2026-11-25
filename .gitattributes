@@ -1,0 +1,18 @@
+* text=auto eol=lf
+*.R text eol=lf
+*.Rd text eol=lf
+*.py text eol=lf
+*.tex text eol=lf
+*.bib text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.pdf binary
+*.jpg binary
+*.png binary
+svylearn_data/** -whitespace
+validation/*sessionInfo.txt -whitespace
+validation/**/sessionInfo.txt -whitespace
+NEWS.md whitespace=-blank-at-eof
+specifications/*.txt -text
+validation/metric-contract/runtime/R/*.R -text
+validation/attrition/runtime/R/*.R -text
