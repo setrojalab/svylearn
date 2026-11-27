@@ -1,7 +1,7 @@
 Package: svylearn
 Title: Design-Consistent Statistical Learning, Calibration, and Inference
     for Complex Surveys
-Version: 0.3.0
+Version: 0.3.1
 Authors@R: c(person("Sunday A.", "Adetunji", email = "sundayadetunjisa@gmail.com", role = c("aut", "cre"),
     comment = c(affiliation = "Oregon State University")),
     person("Oluwatimileyin A.", "Adetunji", email = "eniola16.to@gmail.com", role = "aut",
@@ -26,5 +26,5 @@ Imports: stats, utils, graphics, splines
 Suggests: survey, glmnet, ranger, xgboost, nnet, testthat (>= 3.0.0), knitr, rmarkdown
 Config/testthat/edition: 3
 RoxygenNote: 7.3.3
-URL: https://github.com/setrojalab/svylearn, https://setrojalab.github.io/
-BugReports: https://github.com/setrojalab/svylearn/issues
+URL: https://github.com/setrojalabs/svylearn, https://setrojalabs.github.io/
+BugReports: https://github.com/setrojalabs/svylearn/issues

@@ -1,3 +1,10 @@
+# svylearn 0.3.1
+
+* Update repository, issue-tracker, website, and software citation URLs after the
+  GitHub organization rename to setrojalabs.
+* Rebuild the package and manuscript submission archives with the corrected URLs.
+  The R implementation and numerical results are unchanged from 0.3.0.
+
 # svylearn 0.3.0
 
 - Add `svy_attrition()` specifications and `svy_attrition_weights()` for sequential

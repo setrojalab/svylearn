@@ -6,7 +6,7 @@ The title is preserved from the Figshare software citation in the published meth
 paper: DOI `10.6084/m9.figshare.33437179`. NHANES is a motivating application;
 the survey interfaces accept the analyst's own data, variable names and design.
 
-Authors: Sunday A. Adetunji (Oregon State University) and Oluwatimileyin A. Adetunji (Bowen University). Paper correspondence: Sunday A. Adetunji <adetunjs@oregonstate.edu>. Package maintainer: Sunday A. Adetunji <sundayadetunjisa@gmail.com>. Coauthor contact: <eniola16.to@gmail.com>. Project home: <https://setrojalab.github.io/>.
+Authors: Sunday A. Adetunji (Oregon State University) and Oluwatimileyin A. Adetunji (Bowen University). Paper correspondence: Sunday A. Adetunji <adetunjs@oregonstate.edu>. Package maintainer: Sunday A. Adetunji <sundayadetunjisa@gmail.com>. Coauthor contact: <eniola16.to@gmail.com>. Project home: <https://setrojalabs.github.io/>.
 
 The package implements reusable elements of the method of Adetunji et al. (2026), *Design-consistent statistical learning for rare survey outcomes: a cardiovascular-kidney-metabolic multimorbidity plasmode benchmark in women*, Current Biomedicine 5(1), 7–23, DOI: [10.29244/currbiomed.5.1.7](https://doi.org/10.29244/currbiomed.5.1.7). The new software adds nested calibration, explicit rare-event fallbacks, general survey and panel specifications, and separate software validation experiments.
 
@@ -14,14 +14,14 @@ The package implements reusable elements of the method of Adetunji et al. (2026)
 
 ```r
 install.packages("remotes")
-remotes::install_github("setrojalab/svylearn", dependencies = NA)
+remotes::install_github("setrojalabs/svylearn", dependencies = NA)
 library(svylearn)
 ```
 
 Optional engines can be installed when needed, for example
 `install.packages(c("survey", "glmnet"))`. Both cross-sectional and longitudinal
 workflows use the same package. Report issues at
-<https://github.com/setrojalab/svylearn/issues>.
+<https://github.com/setrojalabs/svylearn/issues>.
 
 ## Install the local release
 
@@ -31,7 +31,7 @@ For a source checkout, first run `R CMD build .` in a terminal. The prepared
 release archive already contains the resulting source tarball.
 
 ```r
-install.packages("svylearn_0.3.0.tar.gz", repos = NULL, type = "source")
+install.packages("svylearn_0.3.1.tar.gz", repos = NULL, type = "source")
 install.packages(c("survey", "glmnet"))
 library(svylearn)
 ```
