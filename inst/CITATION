@@ -8,5 +8,5 @@ bibentry(bibtype = "Article",
 bibentry(bibtype = "Manual",
   title = "svylearn: Design-consistent statistical learning, calibration, and inference for complex surveys",
   author = c(person("Sunday A.", "Adetunji"), person("Oluwatimileyin A.", "Adetunji")),
-  year = "2026", note = "R package version 0.3.0", url = "https://github.com/setrojalab/svylearn",
+  year = "2026", note = "R package version 0.3.1", url = "https://github.com/setrojalabs/svylearn",
   header = "For this software implementation, also cite:")
